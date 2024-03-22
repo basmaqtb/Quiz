@@ -19,7 +19,7 @@ var myQuestions = [
         },
         correctAnswer: 'b'
     }
-];
+]; 
 
 var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');

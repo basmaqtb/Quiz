@@ -4,6 +4,17 @@
 body {
     background-color: #f0f0f0; /* Couleur de fond */
 }
+#countdown{
+    background-color: #FFBBF4;
+    width: 7.5em;
+   border: 2px solid  #F7CD4F;
+float: right;
+    border-radius: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7em 1.8em;
+}
 
 #para{
     border: 8px solid #F7CD4F;
@@ -47,6 +58,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     display: block;
+    
  }       
     
     
