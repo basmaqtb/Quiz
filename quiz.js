@@ -17,7 +17,7 @@ function updateTimer() {
         return window.location.assign("end.html");
     }
 }
-
+  
 
 var myQuestions = [
     {
