@@ -1,5 +1,6 @@
-const startTimer = 1;
-let time = startTimer * 60;
+
+const stratTimer = 15;
+let time = stratTimer * 60;
 const timer = document.getElementById('countdown');
 const progressContainer = document.getElementById('progress');
 
