@@ -1,26 +1,45 @@
-.container{
+body{
     background-color: #FFBBF4;
-    border: 100% solid #222;
+}
+.container {
+    background-color: white;
+    border: 2px solid #222;
     text-align: center;
+    padding: 30px 130px; /* Ajuster le padding selon votre besoin */
+    margin: 10% auto; /* Utiliser "auto" pour centrer le conteneur horizontalement */
+    width: 30%; /* Ajuster la largeur selon votre besoin */
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
-
 }
-.quiz-list {
-    padding: 0;
-    margin: 0;
+.content button{
+    
+    background-color:#459C93;
+
+     /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    padding: 10px 30px; /* Espacement à l'intérieur du bouton */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Retire la bordure */
+    cursor: pointer; /* Curseur de type pointeur au survol */
+    border-radius: 13px; /* Arrondi les coins du bouton */
+    margin: auto; /* Centre le bouton horizontalement */
+    display: block; /* Assure que le bouton occupe toute la largeur disponible */
+    margin-top: 20px;
+    
 }
-
-.quiz-list li {
-    list-style: none; /* Retire les puces de la liste */
-    display: block; /* Affiche chaque élément de liste sur une ligne séparée */
-    margin-left: 40px;
+.content button:hover {
+    background-color: #198754; /* Couleur de fond du bouton au survol */
 }
-
-
-.container h1{
-    text-align: center;
-
-} 
-
-
-
+.content img{
+    width: 100%;
+    
+}
+.content a{
+    text-decoration: none;
+}
