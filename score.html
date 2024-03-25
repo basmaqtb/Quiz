@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Page</title>
+    <link rel="stylesheet" href="score.css">
+</head>
+<body>
+    <h1>Score Page</h1>
+    <div class="score-container" id="scoreDisplay"></div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+    var score = parseInt(localStorage.getItem('numCorrect'));
+
+    var scoreDisplay = document.getElementById("scoreDisplay");
+    
+    if (score < 1) {
+        scoreDisplay.innerText = "Your Score: " + score;
+        document.body.style.backgroundColor = 'red';
+
+    } else {
+        scoreDisplay.innerText = "Your Score: " + score;
+        document.body.style.backgroundColor = 'green';
+    }
+});
+
+    </script>
+    
+    
+    <script src="quizi.js"></script>
+</body>
+</html>
